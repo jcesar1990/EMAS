@@ -1,0 +1,16 @@
+{
+    "stations": [
+        {
+            "name": "LALADRILLERA",
+            "url": "https://www.weatherlink.com/bulletin/191c4832-5370-43ba-8274-7be9be6517a7"
+        },
+        {
+            "name": "Grupo Sierra de Guadalupe A.C.",
+            "url": "https://www.weatherlink.com/bulletin/3751e6ce-21ff-4c20-99fc-2d29126ec528"
+        },
+        {
+            "name": "Oapas Granjas",
+            "url": "https://www.weatherlink.com/bulletin/27fc9000-3237-4404-879e-d059eb8c096d"
+        }
+    ]
+}

@@ -1,0 +1,163 @@
+{
+    "stations": [
+        {
+            "name": "Ferrería",
+            "id": "FERS",
+            "edo": "CDMX",
+            "loc": "AZC",
+            "url": "http://189.254.33.151/pron/2023/FERS/download.txt",
+            "latitud": "19.495912",
+            "longitud": "-99.176484"
+        },
+
+        {
+            "name": "Sta. Úrsula",
+            "id": "SURS",
+            "edo": "CDMX",
+            "loc": "COY",
+            "url": "http://189.254.33.151/pron/2023/SURS/download.txt",
+            "latitud": "19.301357",
+            "longitud": "-99.146655"
+        },
+
+        { 
+            "name": "Sta. Fe",
+            "id": "STFS",
+            "edo": "CDMX",
+            "loc": "CUJ",
+            "url": "http://189.254.33.151/pron/2023/STFS/download.txt",
+            "latitud": "19.361708",
+            "longitud": "-99.285309"
+        },
+
+        { 
+            "name": "SGIRPC",
+            "id": "SGIRPC",
+            "edo": "CDMX",
+            "loc": "BJU",
+            "url": "http://189.254.33.151/stn/juarez/downld02.txt",
+            "latitud": "19.379306",
+            "longitud": "-99.184840"
+        },
+
+        { 
+            "name": "Cuautepec",
+            "id": "CUAUS",
+            "edo": "CDMX",
+            "loc": "GAM",
+            "url": "http://189.254.33.151/pron/2023/CUAUS/download.txt",
+            "latitud": "19.558497",
+            "longitud": "-99.140825"
+        },
+
+        { 
+            "name": "Martín Carrera",
+            "id": "GAM2S",
+            "edo": "CDMX",
+            "loc": "GAM",
+            "url": "http://189.254.33.151/pron/2023/GAM2S/download.txt",
+            "latitud": "19.483556",
+            "longitud": "-99.103701"
+        },
+
+        { 
+            "name": "Agricola Oriental",
+            "id": "AGOS",
+            "edo": "CDMX",
+            "loc": "IZC",
+            "url": "http://189.254.33.151/pron/2023/AGOS/download.txt",
+            "latitud": "19.405623",
+            "longitud": "-99.074466"
+        },
+        
+        { 
+            "name": "Lomas Zaragoza",
+            "id": "LOMS",
+            "edo": "CDMX",
+            "loc": "IZP",
+            "url": "http://189.254.33.151/pron/2023/LOMS/download.txt",
+            "latitud": "19.358041",
+            "longitud": "-99.000071"
+        },
+
+        { 
+            "name": "Tezonco",
+            "id": "TEZS",
+            "edo": "CDMX",
+            "loc": "IZP",
+            "url": "http://189.254.33.151/pron/2023/TEZS/download.txt",
+            "latitud": "19.314968",
+            "longitud": "-99.065118"
+        },
+
+        { 
+            "name": "Legaria",
+            "id": "LEGS",
+            "edo": "CDMX",
+            "loc": "MIH",
+            "url": "http://189.254.33.151/pron/2023/LEGS/download.txt",
+            "latitud": "19.452817",
+            "longitud": "-99.200255"
+        },
+
+        { 
+            "name": "Milpa Alta",
+            "id": "MPAS",
+            "edo": "CDMX",
+            "loc": "MLP",
+            "url": "http://189.254.33.151/pron/2023/MPAS/download.txt",
+            "latitud": "19.175828",
+            "longitud": "-99.991543"
+        },
+
+        { 
+            "name": "Colonia del mar",
+            "id": "TLAS",
+            "edo": "CDMX",
+            "loc": "TLH",
+            "url": "http://189.254.33.151/pron/2023/TLAS/download.txt",
+            "latitud": "19.285025",
+            "longitud": "-99.067039"
+        },
+
+        { 
+            "name": "Belvedere Ajusco",
+            "id": "BELVS",
+            "edo": "CDMX",
+            "loc": "TLP",
+            "url": "http://189.254.33.151/pron/2023/BELVS/download.txt",
+            "latitud": "19.266637",
+            "longitud": "-99.226113"
+        },
+
+        { 
+            "name": "Topilejo",
+            "id": "TPJS",
+            "edo": "CDMX",
+            "loc": "TLP",
+            "url": "http://189.254.33.151/pron/2023/TPJS/download.txt",
+            "latitud": "19.202887",
+            "longitud": "-99.149871"
+        },
+
+        { 
+            "name": "Tulyehualco",
+            "id": "TLHS",
+            "edo": "CDMX",
+            "loc": "XOC",
+            "url": "http://189.254.33.151/pron/2023/TLHS/download.txt",
+            "latitud": "19.258162",
+            "longitud": "-99.025931"
+        },
+
+        { 
+            "name": "San Jeronimo",
+            "id": "SJEROS",
+            "edo": "CDMX",
+            "loc": "MAC",
+            "url": "http://189.254.33.151/pron/2023/SJEROS/download.txt",
+            "latitud": "19.325168",
+            "longitud": "-99.215116"
+        }
+    ]
+}
