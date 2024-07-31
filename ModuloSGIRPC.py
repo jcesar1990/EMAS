@@ -15,14 +15,12 @@ import ERROR
 espacio = '-------------'
 
 #Definimoa la función "procesonew" para las nuevas estaciones y que será llamada como un modulo en el script python.py
-def procesonew(nombre, clave, url):
+def procesonew(nombre, clave, dirtxt):
     
-    dirtxt=paths.tempo+clave+'.txt'
     dircsv=paths.file+clave+'.csv'
 
     print(dirtxt)
     print(dircsv)
-    print(url)
 
     now = datetime.now()
 
@@ -87,23 +85,23 @@ def procesonew(nombre, clave, url):
 
     print('Buscando datos de',clave)
 
-    try:
-        print(espacio)
-        file1 = dirtxt
-        r = urllib.request.urlopen(url)
-        f = open(file1,'wb')
-        f.write(r.read())
-        f.close()
-        #print(file1)
-        print('Datos de la estación',nombre,'obtenidos')
+    # try:
+    #     print(espacio)
+    #     file1 = dirtxt
+    #     r = urllib.request.urlopen(url)
+    #     f = open(file1,'wb')
+    #     f.write(r.read())
+    #     f.close()
+    #     #print(file1)
+    #     print('Datos de la estación',nombre,'obtenidos')
 
-        print('Datos de la estación estacion',clave,'listos')
-    except Exception as e:
-        print("No se logro obtener datos de la estación",clave)
-        error_message = str(e)
-        print(error_message)
-        ERROR.handle_error('ModuloSGIRPC',nombre+'_request',error_message)
-        print(espacio)
+    #     print('Datos de la estación estacion',clave,'listos')
+    # except Exception as e:
+    #     print("No se logro obtener datos de la estación",clave)
+    #     error_message = str(e)
+    #     print(error_message)
+    #     ERROR.handle_error('ModuloSGIRPC',nombre+'_request',error_message)
+    #     print(espacio)
 
 #Se eliminaran las primeras lineas del archivo txt
 
@@ -1013,7 +1011,7 @@ def procesoold(nombre, clave, url):
 #     print("Hubo un problema con la descarga de datos de estaestación")
 
 
-#try:
-#    procesoold("SGIRPC", "SGIRPC","http://189.254.33.151/pron/2023/STFS/download.txt")
-#except:
-#    print("Hubo un problema con la descarga de datos de estaestación")
+try:
+    procesoold("SGIRPC", "SGIRPC","http://189.254.33.151/stn/juarez/downld02.txt")
+except:
+    print("Hubo un problema con la descarga de datos de estaestación")

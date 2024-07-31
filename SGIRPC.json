@@ -5,7 +5,7 @@
             "id": "FERS",
             "edo": "CDMX",
             "loc": "AZC",
-            "url": "http://189.254.33.151/pron/2023/FERS/download.txt",
+            "dirtxt": "C:/WeatherLink/Ferreria/download.txt",
             "latitud": "19.495912",
             "longitud": "-99.176484"
         },
@@ -15,7 +15,7 @@
             "id": "SURS",
             "edo": "CDMX",
             "loc": "COY",
-            "url": "http://189.254.33.151/pron/2023/SURS/download.txt",
+            "dirtxt": "C:/WeatherLink/SantaUrs/download.txt",
             "latitud": "19.301357",
             "longitud": "-99.146655"
         },
@@ -25,7 +25,7 @@
             "id": "STFS",
             "edo": "CDMX",
             "loc": "CUJ",
-            "url": "http://189.254.33.151/pron/2023/STFS/download.txt",
+            "dirtxt": "C:/WeatherLink/Cuajimal/download.txt",
             "latitud": "19.361708",
             "longitud": "-99.285309"
         },
@@ -45,7 +45,7 @@
             "id": "CUAUS",
             "edo": "CDMX",
             "loc": "GAM",
-            "url": "http://189.254.33.151/pron/2023/CUAUS/download.txt",
+            "dirtxt": "C:/WeatherLink/Cuautepe/download.txt",
             "latitud": "19.558497",
             "longitud": "-99.140825"
         },
@@ -55,7 +55,7 @@
             "id": "GAM2S",
             "edo": "CDMX",
             "loc": "GAM",
-            "url": "http://189.254.33.151/pron/2023/GAM2S/download.txt",
+            "dirtxt": "C:/WeatherLink/GAMII/download.txt",
             "latitud": "19.483556",
             "longitud": "-99.103701"
         },
@@ -65,7 +65,7 @@
             "id": "AGOS",
             "edo": "CDMX",
             "loc": "IZC",
-            "url": "http://189.254.33.151/pron/2023/AGOS/download.txt",
+            "dirtxt": "C:/WeatherLink/Agricola/download.txt",
             "latitud": "19.405623",
             "longitud": "-99.074466"
         },
@@ -75,7 +75,7 @@
             "id": "LOMS",
             "edo": "CDMX",
             "loc": "IZP",
-            "url": "http://189.254.33.151/pron/2023/LOMS/download.txt",
+            "dirtxt": "C:/WeatherLink/Lomas/download.txt",
             "latitud": "19.358041",
             "longitud": "-99.000071"
         },
@@ -85,7 +85,7 @@
             "id": "TEZS",
             "edo": "CDMX",
             "loc": "IZP",
-            "url": "http://189.254.33.151/pron/2023/TEZS/download.txt",
+            "dirtxt": "C:/WeatherLink/Tezonco/download.txt",
             "latitud": "19.314968",
             "longitud": "-99.065118"
         },
@@ -95,7 +95,7 @@
             "id": "LEGS",
             "edo": "CDMX",
             "loc": "MIH",
-            "url": "http://189.254.33.151/pron/2023/LEGS/download.txt",
+            "dirtxt": "C:/WeatherLink/Legaria/download.txt",
             "latitud": "19.452817",
             "longitud": "-99.200255"
         },
@@ -105,7 +105,7 @@
             "id": "MPAS",
             "edo": "CDMX",
             "loc": "MLP",
-            "url": "http://189.254.33.151/pron/2023/MPAS/download.txt",
+            "dirtxt": "C:/WeatherLink/SantaAna/download.txt",
             "latitud": "19.175828",
             "longitud": "-99.991543"
         },
@@ -115,7 +115,7 @@
             "id": "TLAS",
             "edo": "CDMX",
             "loc": "TLH",
-            "url": "http://189.254.33.151/pron/2023/TLAS/download.txt",
+            "dirtxt": "C:/WeatherLink/DelMar/download.txt",
             "latitud": "19.285025",
             "longitud": "-99.067039"
         },
@@ -125,7 +125,7 @@
             "id": "BELVS",
             "edo": "CDMX",
             "loc": "TLP",
-            "url": "http://189.254.33.151/pron/2023/BELVS/download.txt",
+            "dirtxt": "C:/WeatherLink/Belveder/download.txt",
             "latitud": "19.266637",
             "longitud": "-99.226113"
         },
@@ -135,7 +135,7 @@
             "id": "TPJS",
             "edo": "CDMX",
             "loc": "TLP",
-            "url": "http://189.254.33.151/pron/2023/TPJS/download.txt",
+            "dirtxt": "C:/WeatherLink/Topilejo/download.txt",
             "latitud": "19.202887",
             "longitud": "-99.149871"
         },
@@ -145,7 +145,7 @@
             "id": "TLHS",
             "edo": "CDMX",
             "loc": "XOC",
-            "url": "http://189.254.33.151/pron/2023/TLHS/download.txt",
+            "dirtxt": "C:/WeatherLink/Tulyehua/download.txt",
             "latitud": "19.258162",
             "longitud": "-99.025931"
         },
@@ -155,7 +155,7 @@
             "id": "SJEROS",
             "edo": "CDMX",
             "loc": "MAC",
-            "url": "http://189.254.33.151/pron/2023/SJEROS/download.txt",
+            "dirtxt": "C:/WeatherLink/SanJeron/download.txt",
             "latitud": "19.325168",
             "longitud": "-99.215116"
         }

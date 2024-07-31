@@ -1,5 +1,4 @@
 import paths
-from dotenv import load_dotenv
 import os
 import time
 from datetime import date, datetime
@@ -14,7 +13,7 @@ from selenium.webdriver.firefox.service import Service as FirefoxService
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
 def weatherlinkweb(nombre,url):
-    load_dotenv()# Se cargan las variables de entorno
+    
     # Get date
     now=datetime.now()
     fecha=(now.strftime("%d-%m-%y"))
@@ -31,21 +30,21 @@ def weatherlinkweb(nombre,url):
     #web_options = Options()
     web_options = FirefoxOptions()
     #binario de firefox
-    web_options.add_argument('--headless')
+    #web_options.add_argument('--headless')
     web_options.add_argument("--disable-gpu")  # Necessary on some systems
     web_options.add_argument("--window-size=1920,1080")  # Window size
-    #driver_path_chrome = paths.chromedriver
-    driver_path_firefox = os.getenv('FIREFOXDRIVER')
+    driver_path_chrome = paths.chromedriver
+    #driver_path_firefox = os.getenv('FIREFOXDRIVER')
     #driver_path_firefox = paths.firefoxdriver
-    print(driver_path_firefox)
-    #service = ChromeService(executable_path=driver_path_chrome)
+    #print(driver_path_firefox)
+    service = ChromeService(executable_path=driver_path_chrome)
 
     # Create a Selenium WebDriver instance 
-    #driver = webdriver.Chrome(service=service, options=web_options)
+    driver = webdriver.Chrome(service=service, options=web_options)
     
     # Create a selenium WebDriver instance with firefox
-    Service = FirefoxService(executable_path=driver_path_firefox)
-    driver = webdriver.Firefox(service=Service, options=web_options)
+    #Service = FirefoxService(executable_path=driver_path_firefox)
+    #driver = webdriver.Firefox(service=Service, options=web_options)
 
     #time.sleep(5)
 
@@ -96,10 +95,10 @@ def weatherlinkweb(nombre,url):
     print("Datos de la estacion",nombre,"obtenidos")
     driver.quit()
 
-#try:
-#    test=weatherlinkweb("LALADRILLERA","https://www.weatherlink.com/bulletin/191c4832-5370-43ba-8274-7be9be6517a7")
-#except Exception as e:
-#    print('ERROR:',e)
+try:
+    test=weatherlinkweb("LALADRILLERA","https://www.weatherlink.com/bulletin/191c4832-5370-43ba-8274-7be9be6517a7")
+except Exception as e:
+    print('ERROR:',e)
 
 #try:
 #    test=weatherlinkweb("LandadeMatamoros","https://www.weatherlink.com/bulletin/45848948-7ad1-4889-9665-35d70f5f60ff")

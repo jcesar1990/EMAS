@@ -15,11 +15,11 @@ for station in config_data["stations"]:
         print('nombre:',nombre)
         clave = station["id"]
         print('clave:',"id")
-        url = station["url"]
-        print('url:',url)
+        dirtxt = station["dirtxt"]
+        print('url:',dirtxt)
         
         try:
-            web = ModuloSGIRPC.procesonew(nombre,clave, url)
+            web = ModuloSGIRPC.procesonew(nombre,clave,dirtxt)
             print(f'Éxito web para {nombre}')
         except Exception as e:
             print(f'ERROR en web para {nombre}:', e)
