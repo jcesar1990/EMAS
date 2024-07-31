@@ -9,7 +9,7 @@ def makedir(path):
         print("El directorio " + path + " ya existe")
 
 principal='/home/cesar/Documents/Estaciones/'
-file=principal+'files/'
+file=principal+'C:/Apache24/htdocs/estacionesMet/files'
 tempo=principal+'temporal/'
 save=principal+'save/'
 screenshot=principal+'screenshot/'
